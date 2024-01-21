@@ -10,13 +10,12 @@ Feel free to explore the code, delve into individual projects, and witness my gr
 - Continuous updates and improvements as I advance in my learning journey.
 
 **Table of Contents:**
-TBA
+> **Foundations**
+- [CSS Exercises](https://github.com/TheChirag356/Odin-Project-Practice-Repository/tree/main/Foundations/CSS%20Exercises)
+- [Margin & Padding Exercises](https://github.com/TheChirag356/Odin-Project-Practice-Repository/tree/main/Foundations/Margin%20%26%20Padding%20Exercises)
+- [Odin-Recipes](https://github.com/TheChirag356/Odin-Project-Practice-Repository/tree/main/Foundations/Odin-Recipes)
 
-<!-- - [Project 1: ...](link_to_project1)
-- [Project 2: ...](link_to_project2)
-- [Exercise 1: ...](link_to_exercise1)
-- [Exercise 2: ...](link_to_exercise2)
-- ... -->
+> **Javascript Path** : TBA
 
 ---
 
