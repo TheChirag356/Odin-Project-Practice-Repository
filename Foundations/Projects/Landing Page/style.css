@@ -1,0 +1,198 @@
+* {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common Styles */
+
+.dark-background {
+  background-color: #1f2937;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary-text,
+.header-link-text,
+.footer-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+button,
+.call-to-action {
+  background-color: #3882f6;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote-background {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+/* Styles */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  margin: 0;
+}
+
+header > ul {
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.container {
+  flex: 1;
+}
+
+.call-to-action {
+  display: flex;
+  margin: 95px;
+  padding: 50px 10px;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.call-to-action > .text > .description {
+  color: #e5e7eb;
+}
+
+.call-to-action > .text > .cta-heading {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 500;
+}
+
+button {
+  color: #f9faf8;
+  border-radius: 9px;
+  height: 35px;
+  width: 120px;
+  border-style: none;
+  font-size: 16px;
+}
+
+.call-to-action > button {
+  border-color: white;
+  border-style: solid;
+  align-self: center;
+  padding: 0px 30px;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.quote-section > .author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.hero > .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero > .left > button {
+  width: 100px;
+}
+
+.information-section {
+  display: flex;
+  width: auto;
+  height: 500px;
+  flex-direction: column;
+}
+
+.information-section > .information-header-text {
+  align-self: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+.information-section > .info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+}
+
+.information-section > .info-cards > .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+  gap: 20px;
+}
+.information-section > .info-cards > .info > img {
+  border-radius: 15px;
+}
+
+.container > .right > img {
+  width: 400px;
+  height: 200px;
+  flex-shrink: 0;
+}
