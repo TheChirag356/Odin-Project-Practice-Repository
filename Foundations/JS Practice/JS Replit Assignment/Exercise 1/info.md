@@ -1,0 +1,1 @@
+In this exercise, you will be working out of the file called `troubleshooting.js`.

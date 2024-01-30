@@ -1,0 +1,1 @@
+You will be working out of `script.js`, and you will use the console in the ‘webview’ pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the ‘webview’ pane.
